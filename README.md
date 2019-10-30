@@ -33,7 +33,7 @@ psql \
 alias without password connect
 
 ```
-alias psql='docker run -it --net=host fkatkit/simple-postgresql-client:latest PGPASSWORD=password psql'
+alias psql='docker run -it --net=host -e PGPASSWORD=password fkatkit/simple-postgresql-client:latest psql'
 ```
 
 ### sample for local server
