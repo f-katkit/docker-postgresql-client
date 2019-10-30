@@ -10,7 +10,7 @@ https://hub.docker.com/r/fkatkit/simple-postgresql-client
 docker run -it --net=host fkatkit/simple-postgresql-client:latest psql \
   -h #{host} \
   -p #{port} \
-  -U #{psqluser} \
+  -U #{psqluser}
 ```
 
 ## Set alias for easily use the postgresql command.
